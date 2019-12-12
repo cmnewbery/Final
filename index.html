@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>
+         Iceland
+      </title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+	  
+   </head>
+   <body style="background-color:powderblue;">
+      <center>
+         <h1 class="visitPage"> Thank You For Visiting Our Page </h1>
+         <p class="info"> Below is some helpful information. </p>
+         <h2 class="iceland"> Iceland Is Awesome! </h2>
+		 
+		 <video width="500" controls>
+		 <source src="ice.mp4" type="video/mp4">
+		 <source src="ice.ogg" type="video/ogg">
+		 </video>
+		 
+		 
+         <p class="nordic"> Iceland, a Nordic island nation, is defined by its dramatic landscape with volcanoes, geysers, hot springs and lava fields. Massive glaciers are protected in Vatnajökull and Snæfellsjökull national parks. Most of the population lives in the capital, Reykjavik, which runs on geothermal power and is home to the National and Saga museums, tracing Iceland’s Viking history. <br><span id="extraText">Iceland, a Nordic island nation, is defined by its dramatic landscape with volcanoes, geysers, hot springs and lava fields. Massive glaciers are protected in Vatnajökull and Snæfellsjökull national parks. Most of the population lives in the capital, Reykjavik, which runs on geothermal power and is home to the National and Saga museums, tracing Iceland’s Viking history. </span><span id="readless" onclick="readLess()">Read Less</span><span id="readmore" onclick="readMore()">Read More</span></p>
+         <img class="lightsImage" src="pictures/picture1.jpg" alt="Lights" style=" ">
+         <h3 class="feelFree"> Feel Free To Navigate Our Webpage </h3>
+         <img class="bluelagoon" src="pictures/picture2.jpg" alt="Blue Lagoon" style=" ">
+         <p class="ourLinks"> Our links and tabs contain a lot of information. Thanks for visiting! </p>
+		 
+		 <h4> Below are some classes I am taking this semester. <h4/>
+		 <dl>
+			<dt> IT 315: Website and Webpage Design </dt>
+			<dd> IT 315 is great web design course. Taking this course will teach you the basics of setting up a website using HTML, Cascading Style Sheets (or CSS), and Java Script. Not only is web design a great tool to have but it is a fun hobby and is personally my favorite class this semester.   </dd>
+				
+				<br>
+				
+			<dt> IT 317: Enterprise Information Architecture </dt>
+				<dd> IT 317, or Enterprise Information Architecture, is a course that teaches basic computer skills and provides information on how a computer works. This is also one of my favorite classes and we meet two times a week just before noon. We are currently learning processor technology and implementation but have gone over computer architecture, data conversions, and data representations.
+
+				</dd>
+			
+				<br>
+			
+			<dt> ECON 301: Managerial Economics </dt>
+				<dd> I attend Professor Rahoui's Economics 301 class once a week. This class is a managerial economic class. I have taken both Micro and Macro Economics with Professor Rahoui. This semester we are learning about key topics like demand analysis, economic forecasting, production, and cost analysis.  </dd>
+			
+				<br>
+			
+			<dt> MGMT 325: Contemporary Organizations and Management </dt>
+				<dd> Contemporary Organization and Management teaches important skills for a manager in today's workplace. The course focuses on planning, organizing, and leading. I attend this class for three hours, once a week.  </dd>
+			
+				<br>
+			
+			<dt> FIN 220: Wallstreet 101 </dt>
+				<dd> Wallstreet 101 is a very interesting class. I was interested in this class because I have invested a small amount of money is a few publicly traded companies. Students work with the Bloomberg program and terminals to practice basic stock knowledge and experience. Hopefully I will understand how to buy and sell stocks more efficiently.    </dd>
+			
+
+
+
+		 </dl>
+		 
+			<br>
+		 
+		 
+		 
+         <img src="pictures/picture3.jpg" alt="Mountain" class="mountain">
+         <br>
+         <a class="trips" href="https://www.odu.edu/academics/international-learning-opportunities/study-abroad">ODU may have trips available! Check here.</a>
+      </center>
+	  <center>
+	  <div class="tripsList">
+		<table border="5" width="100%" cellpadding="4" cellspacing="3">
+		   <tr>
+			  <th colspan="4" align="left"><h2 class="blueviolet">Trips</h2>
+			  </th>
+		   </tr>
+		   <tr>
+			  <th class="green"><b>Duration</b></th>
+			  <th class="green"><b>Day</b></th>
+			  <th class="green"><b>Time</b></th>
+			  <th class="green"><b>Booking</b></th>
+		   </tr>
+		   <tr ALIGN="CENTER">
+			  <td class="green"><b>3 days trip</b></td> 	
+			  <td>Monday</td>
+			  <td>2pm</td>
+			  <td class="green"><b>open</b></td>
+		   </tr>
+		   <tr ALIGN="CENTER">
+			  <td class="green"><b>5 days trip</b></td>
+			  <td>Tuesday</td>
+			  <td>10pm</td>
+			  <td class="green"><b>open</b></td>
+		   </tr>
+		   <tr ALIGN="CENTER">
+			  <td class="green"><b>1 day trip</b></td>
+			  <td>Friday</td>
+			  <td>10am</td>
+			  <td class="red"><b>closed</b></td>
+		   </tr>
+		</table>
+	  </center>
+	  <center>
+		<div class="contactForm">
+			<h2 class="blueviolet"> Contact us </h2>
+			<form action="/contact.php" method="post">
+			  <div class="inputDiv">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="user_name">
+			  </div>
+			  <div class="inputDiv">
+				<label for="mail">E-mail:</label>
+				<input type="email" id="mail" name="user_mail">
+			  </div>
+			  <div class="inputDiv">
+				<label for="msg">Message:</label>
+				<textarea id="msg" name="user_message"></textarea>
+			  </div>
+			  <div class="inputDiv">
+				
+				<input type="submit" id="submit" name="submit">
+			  </div>
+			</form>
+		</div>
+	  </center>
+	  
+	  <audio controls autoplay>
+	  <source src="jazz.ogg" type="audio/ogg">
+	  <source src="jazz.mp3" type="audio/mpeg">
+	    <p>Your browser doesn't support HTML5 audio. Here is a <a href="jazz.mp3">link to the audio</a> instead.</p>
+	  </audio>
+	  <button onclick="gotoTop()" id="gototop" title="Go to top">Top</button>
+	  <script src="main.js"></script>
+   </body>
+</html>
